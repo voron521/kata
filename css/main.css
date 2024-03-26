@@ -37,6 +37,7 @@ body{
 .header-wrapper__item{
     display: flex;
     align-items: center;
+    margin-right: 16px;
 }
 
 
@@ -139,7 +140,7 @@ body{
     
 }
 .main-info__nav{
-    height: 40px;
+    height: 42px;
     overflow: auto;
     margin-top: 24px;
 }
@@ -147,9 +148,10 @@ body{
     margin: 0;
     padding: 0;
     display: flex;
-    flex-direction: column;
+        /*flex-direction: column;*/
     align-items: flex-start;
     list-style-type:  none;
+    
     
 
 }
@@ -161,8 +163,10 @@ body{
     margin-left: 16px;
 }
 .main-info__list-item{
-    margin-bottom: 15px;
-    margin-top: 9px;
+    /* margin-bottom: 15px;
+    margin-top: 9px;*/
+    display: flex;
+    min-width: max-content;
 }
 
 .main-info__list-nav .main-info__list-item:first-child .main-info__link{
@@ -267,7 +271,6 @@ body{
         max-height: 160px;
     }
     .main-info__nav--change-height{
-        
         overflow: visible;
         height: auto;
     }
