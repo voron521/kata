@@ -96,7 +96,6 @@ body{
 .header-wrapper__popup-item, .header-wrapper__stable-item {
     list-style-type:  none;
     
-/*комент*/
 }
 .header-wrapper__popup-item{
     margin-right: 16px;
