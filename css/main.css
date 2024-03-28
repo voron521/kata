@@ -121,7 +121,7 @@ body{
     display: flex;
     align-items: center;
     margin-top: 16px;
-    /*background-color: red; */
+   
     
 }
 
@@ -151,10 +151,8 @@ body{
         /*flex-direction: column;*/
     align-items: flex-start;
     list-style-type:  none;
-    
-    
-
 }
+
 .main-info__link{
     text-decoration: none;
     font-size: 16px;
@@ -164,13 +162,17 @@ body{
 }
 
 .main-info__list-item{
-    /* margin-bottom: 15px;
-    margin-top: 9px;*/
     display: flex;
     min-width: max-content;
 }
 
-.main-info__list-nav .main-info__list-item:first-child .main-info__link{
+/*.main-info__list-nav .main-info__list-item:first-child .main-info__link{
+    margin-top: 0px;
+    border: 2px solid #B8FFEC;
+    padding: 8px 10px 8px 10px;
+    border-radius: 5px;
+}*/
+.main-info__list-nav .main-info__list-item:hover .main-info__link{
     margin-top: 0px;
     border: 2px solid #B8FFEC;
     padding: 8px 10px 8px 10px;
@@ -187,11 +189,10 @@ body{
     line-height: 18px;
     margin-top: 0;
     transition: max-height 0.4s ease;
-    
 }
+
 .main-info__p--change-height.txt-height {
     max-height: 200px;
-    
 }
 
 .main-info__item{
@@ -199,14 +200,12 @@ body{
     flex-direction: column;
     align-items: flex-start;
     margin-top: 24px;
-    
 }
+
 .main-info__wrapper-info{
     display: flex;
     flex-direction: column;
-   
 }
-
 
 .main-info__link-txt{
     display: block;
@@ -228,12 +227,6 @@ body{
     background: transparent;
     margin: 16px 0 16px 12px;
     padding: 4px;
-
-}
-
-.main-info__button:hover + .main-info__p--change-height{
-    max-height: 400px;
-
 }
 
 .main-info__img-button{
@@ -254,13 +247,7 @@ body{
         flex-direction: row;
 
     }
-    /*.main-info__list-nav--change-main-column{
-        flex-direction: row;
-        flex-wrap: wrap;
-        align-items: center;
-        
-        
-    } */
+
     .main-info__main-picture--change-size{
         height: 208px;
         width: 360px;
@@ -272,7 +259,6 @@ body{
         max-height: 160px;
     }
     .main-info__nav--change-height{
-        /*overflow: visible;*/
         height: auto;
     }
     
@@ -292,13 +278,6 @@ body{
         height: 40px;
         background-color: #F8F8F8;;
     }
-
-
-
-    
-    
-
-
 }
 
 @media (min-width: 1119.99px) {
@@ -311,16 +290,13 @@ body{
         flex-direction: row;
         flex-wrap: wrap;
         align-items: center;
-        
-        
     }
-
 
     .main-info__p--change-height{
         max-height: 160px;
     }
+
     .main-info__nav--change-height{
-        
         overflow: visible;
         height: auto;
     }
@@ -338,26 +314,24 @@ body{
     }
     .footer{
         height: 20px;
-        
-        
     }
+
     .h1-block--visible{
         display: flex;
-        
-        
     }
+
     .header-wrapper__item--visible{
         display: none;
-        
     }
+
     .main-info__h1-wrapper--visible{
         display: none;
-
     }
+
     .header-wrapper{
         align-items: flex-end;
-
     }
+
     .header-wrapper__item-p--visible{
         display: block
 
